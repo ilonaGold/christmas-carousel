@@ -1,0 +1,70 @@
+:root {
+  --bright-red: #D42D2F;
+  --dark-green: #344D2F;
+  --light-green: #77A047;
+  --neon-green:  #39ff14;
+  --gold: #FAC57D;
+  --snow: #F0F4F7;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    color: var(--gold);
+    background: var(--snow) url("imgs/snowflakes.jpg") no-repeat center;
+    
+}
+
+.gallery,
+img,
+button {
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--neon-green);
+    background:  #39ff14;
+    color: var(--snow);
+    padding: 2.75em;
+    
+}
+
+img {
+    height: 300px;
+    margin: 0.75em;
+}
+
+h1 {
+    font-size: 6rem;
+    margin: 0.1em;
+}
+
+button {
+    padding: 1em 1.1em;
+    margin: 0.5em;
+    border: none;
+    font-size: 1rem;
+    background-color: var(--gold);
+    color: var(--dark-green);
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.material-icons-outlined {
+    font-size: 30px;
+}
+
